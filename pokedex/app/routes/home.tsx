@@ -3,11 +3,12 @@ import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "tipos de pokemon" },
+    { name: "description", content: "Todos os tipos de pokemon" },
   ];
 }
 
 export default function Home() {
   return <Welcome />;
 }
+
